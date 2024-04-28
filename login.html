@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style2.css">
+    <link rel="stylesheet" href="sweetalert2/dist/sweetalert2.min.css">
+</head>
+<body> 
+
+    <div class="navbar">
+        <nav>
+            <ul class="list">
+                <li id="home"><a href="index.html">Home</a></li>
+                <li id="about"><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </div>
+    <img src="./assets/img/logo.png" id="logo">
+
+    <div class="login">
+        <div id="msgEmail"></div>
+        <form action="index2.html" method="get">
+            <p id="temail">Email:</p>
+            <input type="email" name="email" id="email" value="Digite seu Email">
+            <br>
+            <p id="tsenha">Senha:</p>
+            <input type="password" name="senha" id="senha">
+            <br>
+            <input type="submit" value="Entrar" id="button">
+
+        </form>
+    </div>
+
+    <script src="./assets/js/login.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    
+</body>
+</html>

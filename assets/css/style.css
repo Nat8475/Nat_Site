@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+:root{
+    --color--gray: #8B8989;
+    --color--white: #fff;
+}
+
+body{
+    background-image: url(../img/background.jpg);
+    background-position: 10%;
+}
+
+ #logo{
+    position: relative;
+    left: 2vh;
+    top: -3vh;
+    width: 8vh;
+ }
+.navbar a{
+    color: var(--color--white);
+}
+.navbar{
+    text-align: right;
+    font-size: 20px;
+}
+.navbar li{
+    display: inline;
+    position: relative;
+    top: 3vh;
+    right: 8vh;
+    margin: 20px;
+   /* letter-spacing: 2px;*/
+}
+.list:hover a{
+    color: var(--color--gray);
+    font-weight: bold;
+    border-radius: 4px;
+ }
+
+#about, #home{
+    padding: 3px;
+    border-radius: 5px;
+}
+#ftlogin{
+    width: 4vh;
+    position: relative;
+    right: 2vh;
+}
+
+.title{
+    color: var(--color--white);
+ }
+
+.title h1{
+    text-align: center;
+    margin-top: 35vh;
+    font-size: 5vh;
+}
+
+.title p{
+    text-align: center;
+    font-size: 2vh;
+}
+
+.title:hover {
+    color: var(--color--gray);
+}

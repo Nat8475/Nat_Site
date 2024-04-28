@@ -1,0 +1,172 @@
+/* CSS code for a webpage with a navigation bar, login form, and background image */
+
+/*------------------------\\------------------------*/
+
+/* General styles */
+
+* {
+    /* Reset padding, margin, border, and text decoration */
+    padding: 0;
+    margin: 0;
+    border: 0;
+    text-decoration: none;
+}
+
+/* Set the font family for the entire page */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*------------------------\\------------------------*/
+
+/* Color palette */
+
+:root {
+    --color--gray: #8B8989; /* Gray color */
+    --color--white: #fff; /* White color */
+    --color--black: #000; /* Black color */
+}
+
+/*------------------------\\------------------------*/
+
+/* Background image */
+
+body {
+     /*Set the background image and position */
+    background-image: url(../img/background.jpg);
+    background-position: 10%;
+}
+
+/*------------------------\\------------------------*/
+
+/* Navigation bar */
+
+#logo {
+    /* Set the logo position */
+    position: relative;
+    left: 2vh;
+    top: 0vh;
+    width: 8vh;
+}
+
+.navbar a {
+    /* Set the text color for navigation links */
+    color: var(--color--white);
+}
+
+.navbar {
+    /* Set the text alignment and font size for the navigation bar */
+    text-align: right;
+    font-size: 20px;
+}
+
+.navbar li {
+    /* Set the display, position, and margin for navigation list items */
+    display: inline;
+    position: relative;
+    top: 3vh;
+    right: 8vh;
+    margin: 20px;
+}
+
+.list:hover a {
+    /* Set the hover effect for navigation links */
+    color: var(--color--gray);
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+/*------------------------\\------------------------*/
+
+/* Login form */
+
+.login {
+    /* Center the login form */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#email, #senha {
+    /* Set the border radius for email and password inputs */
+    border-radius: 5%;
+}
+
+/*------------------------\\------------------------*/
+
+/* Email input */
+
+#temail {
+    /* Set the position and font size for the email label */
+    position: relative;
+    color: var(--color--white);
+    top: 21vh;
+    font-size: 20px;
+}
+
+#email {
+    /* Set the position, color, font size, and padding for the email input */
+    position: relative;
+    top: 22vh;
+    padding: 0.5vh;
+    color: var(--color--black);
+    font-size: 18px;
+    padding: 0.7vh;
+}
+
+/*------------------------\\------------------------*/
+
+/* Password input */
+
+#tsenha {
+    /* Set the position and font size for the password label */
+    position: relative;
+    color: var(--color--white);
+    top: 25vh;
+    font-size: 20px;
+}
+
+#senha {
+    /* Set the color, position, padding, and font size for the password input */
+    color: var(--color--black);
+    position: relative;
+    top: 26vh;
+    padding: 1vh;
+    padding-right: 4vh;
+}
+
+/*------------------------\\------------------------*/
+
+/* Shadow effect for email and password inputs */
+
+#email:hover {
+    /* Set the shadow effect for the email input on hover */
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.7);
+}
+
+#senha:hover {
+    /* Set the shadow effect for the password input on hover */
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.7);
+}
+
+/*------------------------\\------------------------*/
+
+/* Submit button */
+
+#button {
+    /* Set the position, font size, background color, font weight, and padding for the submit button */
+    position: relative;
+    top: 30vh;
+    left: 5vh;
+    font-size: 16px;
+    background-color: rgb(5, 118, 7);
+    font-weight: bold;
+    padding: 15px 15px 15px 15px;
+}
+
+#button:hover {
+    /* Set the shadow effect for the submit button on hover */
+    box-shadow: 2px 4px 8px 2px rgba(5, 118, 7, 0.7);
+}
+
+/*-----------------------//--------------------------*/
