@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    border: 0;
+    box-sizing: border-box;
+  }
+  
+  :root{
+    --background--white: #fafafa;
+    --background--dark: #262525;
+    --background--color: #040572;
+    --background--itens: #e1e1e1;
+  }
+  
+  #bg_menu{
+    position: fixed;
+    left: 0rem;
+    width: 50px;
+    height: 200%;
+    box-shadow: 0px 4px 8px 0px rgba(26, 26, 26, 0.424);
+  }
+  
+  .navbar{
+    max-width: 500px;
+  }
+  
+  #logo {
+    height: 3rem;
+    position: fixed;
+    left: 1px;
+    top: 2px;
+  }
+  #logo:hover{
+    animation-name: logo;
+    animation-duration: 6s;
+  }
+  
+  #user {
+    font-size: 26px;
+    position: fixed;
+    top: 6rem;
+    left: 0.7rem;
+  }
+  
+  #search{
+    font-size: 24px;
+    position: fixed;
+    top: 10rem;
+    left: 0.7rem;
+    cursor: pointer;
+  }
+  
+  #search_bar_div{
+    display: grid;
+    place-items: center
+  }
+  
+  .search_bar {
+    position: fixed;
+    top: 1rem;
+    left: 55rem;
+    border-radius: 50px;
+    padding: 10px ;
+    background-color: var(--background--itens);
+  }
+  
+  #home_menu {
+    font-size: 24px;
+    position: fixed;
+    top: 14rem;
+    left: 0.7rem;
+    cursor: pointer;
+  }
+  #folder_add {
+    font-size: 25px;
+    position: fixed;
+    top: 19rem;
+    left: 0.7rem;
+  }
+  
+  #image{
+    font-size: 25px;
+    position: fixed;
+    top: 24rem;
+    left: 0.7rem;
+  }
+  
+  #list_menu{
+    font-size: 24px;
+    position: fixed;
+    bottom: 4rem;
+    left: 0.7rem;
+  }
+  
+  #config_menu{
+    font-size: 25px;
+    position: fixed;
+    bottom: 9rem;
+    left: 12px;
+  }
+  
+  #code {
+    font-size: 25px;
+    position: fixed;
+    bottom: 14rem;
+    left: 0.6rem;
+  }
+  
+  #database{
+    font-size: 25px;
+    position: fixed;
+    bottom: 19rem;
+    left: 0.85rem;
+  }
+  #calendar {
+    font-size: 25px;
+    position: fixed;
+    bottom: 24rem;
+    left: 0.8rem;
+  }
+  #wallet{
+    font-size: 25px;
+    position: fixed;
+    bottom: 29rem;
+    left: 0.7rem;
+  }
+  #github{
+    font-size: 25px;
+    position: fixed;
+    bottom: 1rem;
+    left: 0.7rem;
+  }
+  @keyframes logo {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
