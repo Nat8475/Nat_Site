@@ -1,5 +1,5 @@
 document.getElementById("button").onclick = function(){
-    Swal.fire({
+    /*Swal.fire({
         icon: "success",
         title: "Você logou com Sucesso",
         //showDenyButton: true,
