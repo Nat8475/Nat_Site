@@ -27,10 +27,10 @@
 }
 
 #logo {
-  height: 3rem;
+  height: 5vh;
   position: fixed;
   left: 1px;
-  top: 2px;
+  top: 0.1vh;
 }
 #logo:hover{
   animation-name: logo;
@@ -40,7 +40,7 @@
 .menu i{
   list-style: none;
   font-size: 22px;
-  height: 75px;
+  height: 7.7vh;
   padding-left: 13px;
   display: table-cell;
   vertical-align: bottom;

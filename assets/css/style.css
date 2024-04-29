@@ -11,14 +11,14 @@
 }
 
 body{
-    background-image: url(../img/background.jpg);
+    background-image: url(../img/background2.jpg);
     background-position: 10%;
 }
 
  #logo{
     position: relative;
     left: 2vh;
-    top: -3vh;
+    top: -1vh;
     width: 8vh;
     animation-name: logo;
     animation-duration: 4s;
@@ -36,7 +36,7 @@ body{
     display: inline;
     position: relative;
     top: 3vh;
-    right: 8vh;
+    right: 4vh;
     margin: 20px;
    /* letter-spacing: 2px;*/
 }
@@ -45,15 +45,13 @@ body{
     font-weight: bold;
     border-radius: 4px;
  }
+ #user {
+    color: white;
+ }
 
-#about, #home{
+#about, #home, #user{
     padding: 3px;
     border-radius: 5px;
-}
-#ftlogin{
-    width: 4vh;
-    position: relative;
-    right: 2vh;
 }
 
 .title{
