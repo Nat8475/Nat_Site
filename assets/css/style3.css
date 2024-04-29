@@ -18,12 +18,11 @@
   position: fixed;
   left: 0rem;
   width: 50px;
-  height: 200%;
+  height: 100%;
   box-shadow: 0px 4px 8px 0px rgba(26, 26, 26, 0.424);
 }
 
 .navbar{
-  max-width: 500px;
   display: table;
 }
 
