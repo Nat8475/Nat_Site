@@ -1,27 +1,22 @@
-document.getElementById("button").onclick = function(){
-    /*Swal.fire({
-        icon: "success",
-        title: "Você logou com Sucesso",
-        //showDenyButton: true,
-        confirmButtonText: "Voltar"
-    })
+
     
-    
-    /*
-    Swal.fire({
-        icon: "warning",
-        title: "Você tem certeza?",
-        showDenyButton: true,
-        showCancelButton: true,
-        confirmButtonText: "Salvar",
-    }).then((result) => {
-        if (result.isConfirmed) {
-            Swal.fire("Saved!", "", "success");
-        } else if(result.isDenied) {
-            Swal.fire("As mudanças não foram salvas", "", "info");
-        }
-    })*/
-}
-document.getElementById("email").onclick = function(){
-    this.value = ''
-}
+
+$(function () {
+  $("#form_login").submit(function () {
+    var er = new RegExp(/^[A-Za-z0-9_\-\.]+@[A-Za-z0-9_\-\.]{2,}\.[A-Za-z0-9]{2,}(\.[A-Za-z0-9])?/);
+    var email = $("#email").val();
+
+    //if( nome == '' ) { alert('Preencha o campo nome'); return false; }
+    if (email == "" || !er.test(email)) {
+        Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: "Preencha o campo email corretamente!",
+          })
+      return false;
+    }
+
+    // Se passou por essas validações exibe um alert
+    alert("formulário enviado com sucesso!");
+  });
+});
